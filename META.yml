@@ -1,0 +1,28 @@
+--- #YAML:1.0
+name:               Bootylicious-Plugin-I18n
+version:            0.990101
+abstract:           I18N plugin for bootylicious
+author:
+    - Viacheslav Tykhanovskyi <vti@cpan.org>
+license:            artistic_2
+distribution_type:  module
+configure_requires:  {}
+build_requires:  {}
+requires:
+    Mojo:                 0.999909
+    MojoX::Locale::Maketext:  0
+    perl:                 5.008001
+    POSIX:                0
+resources:
+    homepage:    http://getbootylicious.org
+    license:     http://dev.perl.org/licenses/
+    repository:  http://github.com/vti/bootylicious-plugin-i18n/tree/master
+no_index:
+    directory:
+        - t
+        - inc
+        - t
+generated_by:       ExtUtils::MakeMaker version 6.50
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
